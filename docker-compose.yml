@@ -1,0 +1,7 @@
+version: '2'
+services:
+  site:
+    container_name: tensorflow
+    image: tensorflow/tensorflow
+    volumes:
+     - ./script:/tmp/tensorflow/script:rw
